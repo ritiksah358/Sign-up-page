@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1>Student Registration</h1>
+                <div class="search-container">
+                    <input type="text" placeholder="Search">
+                    <button>Search</button>
+                </div>
+            </div>
+        </header>
+        <div class="form-container">
+            <div class="form-header">
+                <label for="roll-no">Roll No :</label>
+                <input type="text" id="roll-no" name="roll-no">
+                <label for="date">Date :</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div class="form-body">
+                <div class="student-details">
+                    <h2>Student's Details</h2>
+                    <div class="form-group">
+                        <label for="full-name">Full Name :</label>
+                        <input type="text" id="full-name" name="full-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth :</label>
+                        <input type="date" id="dob" name="dob">
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender :</label>
+                        <select id="gender" name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="semester">Semester :</label>
+                        <select id="semester" name="semester">
+                            <option value="1">1st</option>
+                            <option value="2">2nd</option>
+                            <option value="3">3rd</option>
+                            <option value="4">4th</option>
+                            <option value="5">5th</option>
+                            <option value="6">6th</option>
+                            <option value="7">7th</option>
+                            <option value="8">8th</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail :</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="skills">Skills :</label>
+                        <input type="text" id="skills" name="skills">
+                    </div>
+                </div>
+                <div class="parent-details">
+                    <h2>Parent's Details</h2>
+                    <div class="form-group">
+                        <label for="father-name">Father Name :</label>
+                        <input type="text" id="father-name" name="father-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="mother-name">Mother Name :</label>
+                        <input type="text" id="mother-name" name="mother-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="father-occupation">Occupation :</label>
+                        <input type="text" id="father-occupation" name="father-occupation">
+                    </div>
+                    <div class="form-group">
+                        <label for="mother-occupation">Occupation :</label>
+                        <input type="text" id="mother-occupation" name="mother-occupation">
+                    </div>
+                </div>
+            </div>
+            <div class="form-footer">
+                <div class="upload-container">
+                    <img src="upload-icon.jpg" alt="Upload" class="upload-icon">
+                    <button class="upload-btn">Upload</button>
+                </div>
+                <div class="button-container">
+                    <button class="btn save-btn">Save</button>
+                    <button class="btn reset-btn">Reset</button>
+                    <button class="btn exit-btn">Exit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .form-body {
+        flex-direction: column;
+    }
+
+    .form-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-header label, .form-header input {
+        width: 100%;
+    }
+
+    .button-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .button-container .btn {
+        width: 100%;
+    }
+}
